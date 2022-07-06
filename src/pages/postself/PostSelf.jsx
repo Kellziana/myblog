@@ -1,4 +1,4 @@
-import SpecPost from "../../components/specifcpost/SpecPost"
+import SpecPost from "../../components/SpecificPost/SpecPost"
 import "./postself.css"
 
 export default function PostSelf() {

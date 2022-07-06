@@ -1,4 +1,3 @@
-import "./contacts.css"
 import Cont from "../../components/Cont/Cont";
 
 export default function Contacts() {

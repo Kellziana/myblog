@@ -1,6 +1,6 @@
 import "./blog.css"
 //import EachPost from "../../components/eachpost/EachPost"
-import BlogPosts from "../../components/blogposts/BlogPosts"
+import BlogPosts from "../../components/Blogposts/BlogPosts"
 
 export default function Blog() {
   return (

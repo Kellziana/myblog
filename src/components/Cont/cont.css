@@ -21,12 +21,14 @@
 }
 
 em {
-    color:rgb(255, 139, 240)
+    color:black;
+    text-shadow: 2px 2px 2px rgb(0, 168, 173);
 }
 
 .contactList a {
     text-decoration: underline;
     color: black;
+    
 }
 
 .samina {

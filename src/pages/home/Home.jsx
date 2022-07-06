@@ -1,5 +1,5 @@
 import "./home.css"
-import Intro from "../../components/intro/Intro"
+import Intro from "../../components/Intro/Intro"
 
 export default function Home() {
   return (

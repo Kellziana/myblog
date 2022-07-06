@@ -14,6 +14,7 @@
     height: 10%;
     margin-top: 15px;
     margin-left: 10px;
+    cursor: pointer;
     animation: spin 2s linear infinite;
     animation-direction: alternate;}
 
@@ -23,7 +24,7 @@
 
 .optionsList{
     list-style-type: none;
-    margin: 0 0 0 150px;
+    margin: 0px 0px 0px 150px;
 }
 
 .options li {
@@ -33,10 +34,10 @@
     display: block;
     color: rgb(77, 77, 77);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
     font-size: 30px;
-    line-height:40px;
+    cursor: pointer;
   }
 
 .options a {
@@ -48,7 +49,7 @@
     font-size: 30px;
   }
 
-.options a:hover {
+.options li:hover {
     background-color: #00ffbf;
     color: white;
 }
