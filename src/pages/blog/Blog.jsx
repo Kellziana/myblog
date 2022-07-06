@@ -1,4 +1,3 @@
-import "./blog.css"
 //import EachPost from "../../components/eachpost/EachPost"
 import BlogPosts from "../../components/Blogposts/BlogPosts"
 
