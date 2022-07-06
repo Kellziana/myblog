@@ -1,0 +1,37 @@
+.contacting {
+    background-color: rgba(255, 255, 255, 0.582);
+    padding:40px ;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 90px;
+
+}
+.quote {
+    margin-top: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.contactList ul {
+    margin: 80px;
+    font-size: 30px;
+    text-align: center;
+    list-style: none;
+}
+
+em {
+    color:rgb(255, 139, 240)
+}
+
+.contactList a {
+    text-decoration: underline;
+    color: black;
+}
+
+.samina {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+}
