@@ -1,7 +1,8 @@
 .introHeading {
     font-size: 50px;
     animation: introduce 7s;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
   }
@@ -23,12 +24,14 @@
     color: #ffffff;
     --color-1: #ffffff;
     --color-2: rgb(77 77 77);
+    text-shadow: 2px 2px #00ffbf;
   }
   
   .name-word-2 {
     color:rgb(77, 77, 77);
     --color-1: rgb(77 77 77);
-    --color-2: #ffffff;}
+    --color-2: #ffffff;
+    text-shadow: 2px 2px #00ffbf}
 
     @keyframes greywhite {
         0%    {color: var(--color-1)}
@@ -41,15 +44,12 @@
 .info{
     margin-left: auto;
     margin-right: auto;
-    color: rgb(77, 77, 77);
+    margin-bottom: 100px;
     max-width: 1000px;
     text-align: center;
     font-size: 20px;
-    border: 1px solid white;
     padding: 50px;
-    overflow: auto;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255, 20%);
+    display:block;
 }
 
 .info h2{
@@ -68,7 +68,30 @@
     vertical-align: middle;
 }
 
-.info li{
+.cs li{
     list-style-type: none;
+}
 
+.cs {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.why {
+  width: 80%;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.what {
+  width:80%;
+  font-size: 20px;
+  margin-right: 50px;
+}
+
+.languages {
+  width: 80%;
+  font-size: 20px;
 }

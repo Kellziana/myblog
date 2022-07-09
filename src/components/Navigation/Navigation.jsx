@@ -8,7 +8,6 @@ export default function Navigation() {
       <div className="logo"><Link to='/'><img src="icon.png" alt="icon"/></Link> </div>
         <div className="optionsList">
           <ul className = "options">
-            <li>CONTACTS <Link to='/Contacts'></Link></li>
             <li>BLOG <Link to='/Blog'></Link></li>
             <li>HOME <Link to='/'></Link></li>
           </ul>

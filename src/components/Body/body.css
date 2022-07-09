@@ -1,20 +1,8 @@
 body {
-    background: linear-gradient(-60deg, #004e5c, #7fffdf, #58fff1, #00ffbf);
+    background: rgb(168, 168, 168);
     background-size: 400% 400%;
-    animation: gradient 8s ease infinite;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }}
 
 body::-webkit-scrollbar {
     width: 12px;               
